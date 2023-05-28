@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+.notes-list{
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
 .note{
   background-color: #fef68a;
   margin-bottom: 10px;
