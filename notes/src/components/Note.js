@@ -7,7 +7,6 @@ const Note = () => {
                 <small>1400/3/7</small>
                 <MdDeleteForever className='delete-icon' size='1.3em' />
             </div>
-
         </div>
     )
 }
