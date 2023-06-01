@@ -3,7 +3,7 @@ import {nanoid} from 'nanoid';
 import NotesList from "./components/NotesList";
 
 const App = () => {
-  const {notes, setNotes} = useState([
+  const [notes, setNotes] = useState([
     {
     id: nanoid(),
     text: "This is my first note.",
@@ -12,26 +12,21 @@ const App = () => {
     {
       id: nanoid(),
       text: "This is my second note.",
-      date: "1402/3/11",
+      date: "1402/3/12",
     },
     {
       id: nanoid(),
       text: "This is my third note.",
-      date: "1402/3/11",
+      date: "1402/3/13",
     },
     {
       id: nanoid(),
-      text: "This is my first note.",
-      date: "1402/3/11",
+      text: "This is my forth note.",
+      date: "1402/3/14",
     },
     {
       id: nanoid(),
-      text: "This is my first note.",
-      date: "1402/3/11",
-    },
-    {
-      id: nanoid(),
-      text: "This is my first note.",
+      text: "This is my last note.",
       date: "1402/3/11",
     },
 ]);
