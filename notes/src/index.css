@@ -12,6 +12,20 @@ code {
     monospace;
 }
 
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode{
+  background-color: black;
+}
+
+.dark-mode h1{
+  color: white;
+}
+
 .container{
   max-width: 960px;
   margin-right: auto;
@@ -19,6 +33,7 @@ code {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
+  min-height: 100vh;
 }
 
 .notes-list{
